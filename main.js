@@ -12,7 +12,7 @@ while (funciona) {
     
         switch (opciones) {
             case 1:
-                let nom = prompt("Ingrese Nombre del juego");
+                let nom = prompt("Ingrese uno de los siguientes juegos: fifa - pes - uncharted - dishonored");
                 let cant= parseInt (prompt("ingrese la cantidad"))
                 if (nom=="fifa"||nom=="pes"||nom=="uncharted"||nom=="dishonored") {
                     jueguitos= new Jueguitos(nom, cant);
